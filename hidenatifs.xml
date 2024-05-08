@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="plugin" group="content" method="upgrade">
+    <name>Masquer les fichiers natifs</name>
+    <author>Sébastien LHUILLIER</author>
+    <creationDate>Avril 2024</creationDate>
+    <copyright></copyright>
+    <license></license>
+    <authorEmail>sebastien.lhuillier+joomla@gmail.com</authorEmail>
+    <authorUrl>www.sebastien-lhuillier.com</authorUrl>
+    <version>1.0</version>
+    <description>
+      Masque les fichiers natifs stockés dans la prorieté HTML5 data-natifs si l'utilisateur n'est pas administrateur
+    </description>
+    <files>
+        <filename>hidenatifs.xml</filename>
+        <filename plugin="hidenatifs">hidenatifs.php</filename>
+    </files>
+    <config>
+    </config>
+</extension>
